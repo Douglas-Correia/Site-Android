@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    font-family: sans-serif;
+    background-color: #c5ebd6;
+}
+
+.cabeçalho{
+    background-image: linear-gradient(to top, rgb(29, 136, 29), rgb(23, 136, 23));
+    width: 100%;
+    height: 200px;
+}
+
+.cabeçalho > h1{
+    padding-top: 30px;
+    color: #fff;
+    text-align: center;
+    font-size: 2em;
+}
+
+.cabeçalho > p{
+    padding-top: 30px;
+    text-align: center;
+    color: #fff;
+}
+
+.menu-bar{
+    background-image: linear-gradient(to top, rgb(21, 73, 21), rgb(23, 136, 23));
+    box-shadow: 5px 4px 5px rgb(0,0,0,0.6);
+    padding: 10px;
+}
+
+.menu-bar li{
+    display: inline;
+}
+
+.menu-bar a{
+    text-decoration: none;
+    padding-right: 23px;
+    padding-left: 10px;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+.menu-bar a:hover{
+    text-decoration: underline;
+    background-color: darkgreen;
+}
+
+.container{
+    margin: auto;
+    width: 80%;
+    background-color: #fff;
+}
+.container > article > p{
+    text-indent: 2em;
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.title-android{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left: 15px;
+    color: rgb(12, 112, 12);
+}
+
+.title-versao{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(12, 112, 12);
+    background-color: rgb(12, 112, 12, 0.2);;
+    padding-left: 20px;
+}
+.green{
+    color: rgb(12, 112, 12);
+    cursor: pointer;
+}
+
+.img-dan-droid{
+    width: 98%;
+    padding-top: 20px;
+}
+
+.irina-block{
+    width: 100%;
+    height: 250px;
+}
+
+.bug-droid{
+    padding-left: 30%;
+}
+
+.sub-rodapé{
+    padding-top: 15px;
+    margin: auto;
+    width: 80%;
+    background-color: #fff;
+    padding-left: 20px;
+}
+
+.container-title-rodape{
+    width: 98%;
+    background-color: rgb(166, 209, 166);
+    border-radius: 6px;
+}
+
+.container-title-rodape > h3{
+    border-radius: 6px 6px 0px 0px;
+    color: #fff;
+    background-color: rgba(44, 209, 44, 0.884);
+}
+
+.container-title-rodape > p{
+    color: black;
+    text-indent: 30px;
+    padding-left: 10px;
+}
+
+.container-title-rodape > span{
+    padding-left: 10px;
+}
+
+.container-title-rodape > table{
+    display: inline;
+}
